@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>Contato</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="./index.html">Início</a></li>
+    </ul>
+
+    <form action="./thank-you.html">
+      <div>
+        <label for="fullName">Nome completo</label>
+        <input type="text" name="fullName" id="fullName" required />
+      </div>
+
+      <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+
+      <div>
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password" required />
+      </div>
+
+      <div>
+        <input type="radio" id="male" name="gender" value="Masculino" />
+        <label for="male">Masculino</label>
+      </div>
+
+      <div>
+        <input type="radio" id="female" name="gender" value="Feminino" />
+        <label for="female">Feminino</label>
+      </div>
+
+      <div>
+        <input type="radio" id="other" name="gender" value="Outro" />
+        <label for="other">Outro</label>
+      </div>
+
+      <div>
+        <label>Quais serviços você gostaria de contratar?</label>
+
+        <div>
+          <input type="checkbox" id="landing_page" name="landing_page" />
+          <label for="landing_page">Criação de página de venda</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="aplicativo" name="aplicativo" />
+          <label for="aplicativo">Criação de aplicativos</label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            id="formatacao_de_computador"
+            name="formatacao_de_computador"
+          />
+          <label for="formatacao_de_computador">Formatação de computador</label>
+        </div>
+
+        <div>
+          <label>Sua mensagem</label>
+
+          <div>
+            <textarea name="message"></textarea>
+          </div>
+        </div>
+
+        <input type="submit" value="Finalizar" />
+        <input type="reset" value="Limpar" />
+      </div>
+    </form>
+  </body>
+</html>

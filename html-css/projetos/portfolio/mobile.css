@@ -1,0 +1,131 @@
+@media (max-width: 1024px) {
+  .navbar-container {
+    display: none;
+  }
+
+  /* Showcase */
+  .showcase-container > h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3.3rem;
+  }
+
+  .showcase-container > p {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  /* Sobre mim */
+  .about-me-content {
+    flex-direction: column;
+  }
+
+  .about-me-content > img {
+    width: 200px;
+    height: 200px;
+    margin-right: 0;
+  }
+
+  .about-me-content p {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  /* Habilidades */
+  .skills-content {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+
+  .skills-content .skill-item:nth-child(2) {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .skill-item {
+    padding: 30px;
+  }
+
+  .skill-item img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .skill-item p {
+    font-size: 0.875rem;
+  }
+
+  /* Projetos */
+  .projects-content {
+    margin-top: 40px;
+  }
+
+  .project-item {
+    flex-direction: column;
+  }
+
+  .projects-content .project-item:nth-child(2),
+  .projects-content .project-item:nth-child(4) {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .projects-content .project-item:nth-child(2) > .project-item-image,
+  .projects-content .project-item:nth-child(4) > .project-item-image {
+    order: 1;
+    margin-left: 0;
+  }
+
+  .projects-content .project-item:nth-child(2) > .project-text,
+  .projects-content .project-item:nth-child(4) > .project-text {
+    order: 2;
+  }
+
+  .project-text {
+    margin-left: 0;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .project-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-text p {
+    font-size: 0.875rem;
+    margin-top: 10px;
+  }
+
+  /* Formulário */
+  .contact-form {
+    margin-top: 40px;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-items {
+    margin-bottom: 15px;
+  }
+
+  .social-items a:last-child {
+    margin-right: 0;
+  }
+
+  /* Utilities */
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-container {
+    padding: 30px;
+  }
+}
